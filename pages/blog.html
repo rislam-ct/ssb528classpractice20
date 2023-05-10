@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<!--Meta-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-School</title>
+		<!--CSS Links-->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/media.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap-icons.css">
+</head>
+<body>
+	<!--Header Start-->
+		<header>
+			<div class="container px-0">
+				<!--Navbar Start-->
+				<nav class="navbar navbar-expand-lg cnav">
+				  <div class="container-fluid">
+
+					<!--Logo Start-->
+				    <a class="navbar-brand logo" href="../index.html">
+				    	<img src="../images/Logo.png" alt="E-School" width="72" height="59" class="img-fluide logo"> E-School
+				    </a>
+					<!--Logo End-->				    
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navb" aria-controls="navb" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+
+				    <!-- Menu Start-->
+				    <div class="collapse navbar-collapse menu" id="navb">
+				      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link " aria-current="page" href="../index.html">Home</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="../pages/books.html">Books</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="../pages/courses.html">Courses</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="../pages/others.html">Others</a>
+				        </li>
+				        <li class="nav-item ">
+				          <a class="nav-link active" href="../pages/blog.html">Blog</a>
+				        </li>				        
+				      </ul>
+				      
+				      <!--Sign in Start-->
+						<button type="button" class="btn btn-success cbtn" data-bs-toggle="modal" data-bs-target="#exampleModal"> Sign in
+						</button>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h1 class="modal-title fs-5" id="exampleModalLabel">Sign in</h1>
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body">
+
+						      	<div class="col-md-12">
+						    		<label for="email1" class="form-label">Enter Your user id or e-mail address</label>
+						    		<input type="email" class="form-control email1" id="email1" name="email1" placeholder="Enter Your ser id or e-mail address" required>
+						    		<div class="valid-tooltip">Looks Good</div>
+						    		<div class="invalid-tooltip">Enter Your Email Address</div>
+					   			</div>
+						        <div class="col-md-12">
+						    		<label for="password1" class="form-label">Password</label>
+						    		<input type="password" class="form-control password1" id="password1" name="password1" placeholder="Enter Your Password" required>
+					  			</div>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-primary">Sign in</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				      <!--Sign in End-->
+				    </div>
+				    <!-- Menu End-->
+				  </div>
+				</nav>
+				<!--Navbar End-->
+			</div>
+		</header>
+	<!--Header End-->
+	
+
+		<!--JS Links-->
+	<script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
